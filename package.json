@@ -1,0 +1,14 @@
+{
+  "name": "projeto-spotify-hashtag",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix api-spotify-project && npm install --prefix project-spotify && npm run build --prefix project-spotify",
+    "start": "npm run start --prefix api-spotify-project",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
