@@ -1,4 +1,4 @@
-import path, { dirname } from "path";
+import path, { __dirname } from "path";
 
 const __dirname = path.resolve();
 console.log(__dirname)
